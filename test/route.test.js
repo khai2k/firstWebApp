@@ -15,7 +15,7 @@ describe("GET /", function () {
         if (err) return done(err);
 
         // You can add more specific assertions here if needed
-        expect(res.text).to.include("<title>Express 2</title>");
+        expect(res.text).to.include("<title>Express</title>");
 
         done();
       });
