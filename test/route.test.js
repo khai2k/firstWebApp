@@ -6,7 +6,7 @@ const expect = chai.expect;
 const request = supertest(app);
 
 describe("GET /", function () {
-  it("responds with HTML and a title", function (done) {
+  it("responds with HTML and a  title", function (done) {
     request
       .get("/")
       .expect(200)
